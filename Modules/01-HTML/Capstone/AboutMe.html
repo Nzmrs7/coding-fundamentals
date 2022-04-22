@@ -1,0 +1,124 @@
+<!-- Recreate the portfolio page but with your own info.
+Write a simple about me page. 
+
+- Inclube tables
+- Include forms
+- Include lists -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurzahidah</title>
+    <style>
+        table{
+            width: 100%;
+        }
+
+        td,th{
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Navigational Links</h1>
+        <nav>
+          <ul>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#AlmaMater">My alma ater</a></li>
+            <li><a href="#Random">Random facts about me</a></li>
+            <li><a href="#Newsletter">Newsletter registration</a></li>
+          </ul>
+        </nav>
+    </header>
+    <div>
+        <section id="Introduction"> 
+            <h3>Introduction</h3>
+            <p>
+                Hello there, my name is Nurzahidah and I am 27 years old. I graduated with Bachelor of Engineering(Mechanical) back in 2018 from Swinburne University of Technology, Sarawak. I have experience in designing sheet metal with good knowledge in AutoCAD and SolidWorks. I am currently working to be involved in tech, thus,that is why I am in this programme. Furthermore, the tech industry is only expanding and would need to use good developer. My hobbies are watching series and movies,listening to songs and playing guitar. 
+            <p>
+
+        </section>
+
+        <section id="Experience">
+            <p>
+                <table>
+                    <caption><h4>Experience</h4></caption>
+                    <tr>
+                        <th>No</th>
+                        <th>Position</th>
+                        <th>Company</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Project Executive</td>
+                        <td>Resonics Consultancy</td>
+                        <td>6 months</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Design Engineer</td>
+                        <td>Intec Precision Engineering Sdn Bhd</td>
+                        <td>2 years</td>
+                    </tr>
+                </table>
+            </p>
+
+        </section>
+
+        <section id="AlmaMater">
+            <p>
+                <h3>My alma mater</h3>
+                <ol>
+                    <li>Swinburne University of Technology, Sarawak</li>
+                    <li>SMK Green Road</li>
+                    <li>SK Jalan Ong Tiang Swee</li>
+                </ol>
+            </p>
+
+        </section>
+
+
+        <section id="Random">
+            <p>
+                <h3>Random facts about me</h3>
+                <ol>
+                    <li>I can fold my tongue to cloverleaf </li>
+                    <li>I am the only one with curly hair among my siblings</li>
+                    <li>I am short (like really short)</li>
+                </ol>
+            </p>
+
+        </section>
+
+        <section id="Newsletter">
+            <p>
+                <h4>If you wish to be included in my newsletter feel the form below!</h4>
+    
+                <form action="AboutMe.html" method="get">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="name" id="name" required>
+                    </div>
+    
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="email" id="email">
+                </form>
+            </p>
+        </section>
+
+    </div>
+</body>
+<footer>
+    <p>Feel free to contact me should you wish to connect at <a href="mailto:nurzahidah.rasidi@gmail.com">my email. </a></p>
+</footer>
+</html>
