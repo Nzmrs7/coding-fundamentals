@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.option{
+    margin: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.contactme{
+    display: flex;
+
+}
+.fa-facebook {
+
+    color: black;
+  }
+
+.fa-twitter {
+
+    color: black;
+  }
+
+  .fa-instagram {
+
+    color: black;
+  }
+
+.contactme-text{
+    height: 500px;
+    background-color: aqua;
+    width: 30%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.contactme-form{
+    padding: 20px;
+    width: 30%;
+
+}
+input {
+    width: 100%;
+  }
+
+form{
+    padding:20px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
